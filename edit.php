@@ -5,7 +5,7 @@ include('db.php');
 $id = $_GET['id'];
 $rand = rand();
 
-
+ 
 if (isset($_GET['id'])) {
     $edit_id = $_GET['id'];
     $edit_query = "SELECT * FROM mahasiswa WHERE id = $edit_id";
