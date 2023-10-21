@@ -91,8 +91,11 @@ include('db.php');
 
 	<div class="d-flex justify-content-center">
 		<div class="d-flex flex-column w-75 p-4" id="list">
+		<?= date("l, d M Y")?>
 			<div class="d-flex justify-content-between">
-				<h3><b>My To-Do List</b></h3>
+				<div>
+				<h3><b>My To-Do List     </b><i class="fa fa-list-alt" aria-hidden="true"></i></h3>
+				</div>
 				<span>
 					<a href='#' class='btn btn-success mr-3 addtask' data-bs-toggle='modal' data-bs-target='#add<?= $id ?>' title='Add'>
 					<i class="fa fa-plus" aria-hidden="true"></i></a>
