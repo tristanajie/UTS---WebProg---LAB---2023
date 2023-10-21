@@ -11,6 +11,7 @@ require('db.php');
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/f.7.0/css/font-awesome.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
@@ -34,7 +35,7 @@ require('db.php');
                     <div class="form-group d-flex justify-content-center">
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </div>
-                    <a href="register.php">Register</a>
+                    Don't have an account? <a href="register.php">Register</a>
                 </form>
             </div>
         </div>

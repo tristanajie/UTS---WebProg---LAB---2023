@@ -66,49 +66,20 @@
 
                         <div class="row pb-1">
                             <div class="col-md-6">
-                                <label for="inputEmail4">Student Id.</label>
-                                <input type="text" class="form-control" name="card_no" placeholder="Enter 12-digit Student ID." maxlength="12" required>
-                            </div>
-                            <div class="col-md-6">
-                                <label for="inputPassword4">Prodi</label>
-                                <input type="text" class="form-control" name="user_prodi" placeholder="Enter Prodi" maxlength="20" required>
-                            </div>
-                        </div>
-                        <div class="row pb-1">
-                            <div class="col-md-6">
                                 <label for="firstname">First Name</label>
-                                <input type="text" class="form-control" name="user_first_name" placeholder="Enter First Name">
+                                <input type="text" class="form-control" name="u_f_name" placeholder="Enter First Name" required>
                             </div>
                             <div class="col-md-6">
                                 <label for="lastname">Last Name</label>
-                                <input type="text" class="form-control" name="user_last_name" placeholder="Enter Last Name">
+                                <input type="text" class="form-control" name="u_l_name" placeholder="Enter Last Name" required>
                             </div>
                         </div>
-                        <div class="row pb-1">
-                            <div class="form-group">
-                                <label>Image</label>
-                                <input type="file" name="image" class="form-control" required>
-                            </div>
-                        </div>
-                        <div class="row pb-1">
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="level" id="level" value="student" checked>
-                                <label class="form-check-label" for="flexRadioDefault1">
-                                    Student
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="level" id="level" value="admin">
-                                <label class="form-check-label" for="flexRadioDefault2">
-                                    Admin
-                                </label>
-                            </div>
-                        </div>
+                        
                         <div class="d-flex justify-content-center pt-5">
                             <button type="submit" name="submit" class="btn btn-primary" value="register">Register</button>
                         </div>
                     </form>
-                    <p>Already have account? <a href="loginlol.php">Login</a></p>
+                    <p>Already have an account? <a href="loginlol.php">Login</a></p>
                 </div>
             </div>
         </div>

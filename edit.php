@@ -28,7 +28,6 @@ if (isset($_POST['submit'])) {
     $u_card = $_POST['card_no'];
     $u_f_name = $_POST['user_first_name'];
     $u_l_name = $_POST['user_last_name'];
-    $u_prodi = $_POST['user_prodi'];
 
     $msg = "";
     $image = $_FILES['image']['name'];

@@ -30,8 +30,8 @@ require('db.php');
     z-index: 2;
     margin: 0 auto;
     width: 300px;
-    background: linear-gradient(#80bfff, #cce6ff);
-    border: 3px solid #3399ff;
+    background: linear-gradient(#F96C6C, #C84343);
+    border: 3px solid #A62828;
     border-radius: 15px;
     color: white;
     padding-left: 20px;
@@ -73,7 +73,7 @@ require('db.php');
 </style>
 
 <body>
-    <div id="succ">New account has been registered.</div>
+    <div id="succ">Logged Out.</div>
     <div class="container-fluid pt-5">
         <div class="row  d-flex justify-content-center">
             <div id="form"class="col-6 align-items-center">
@@ -91,7 +91,7 @@ require('db.php');
                     <div class="form-group d-flex justify-content-center">
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </div>
-                    <a href="register.php">Register</a>
+                    Don't have an account? <a href="register.php">Register</a>
                 </form>
             </div>
         </div>
